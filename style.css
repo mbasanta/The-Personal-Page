@@ -38,7 +38,15 @@ a:hover {
 	width: 360px;
 	padding: 0 0 0 150px;
 	margin: -35px 50px 0 auto !important;
-	background-color:rgba(128,128,128,0.5);
+    background:rgb(128,128,128);
+	background: transparent\9;
+	background:rgba(128,128,128,0.5);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7f808080,endColorstr=#7f808080);
+	zoom: 1;
+}
+
+#about:nth-child(n) {
+	filter: none;
 }
 
 @media (max-width: 767px) {
