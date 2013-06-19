@@ -9,7 +9,8 @@ body {
 
 #about {
 	width: 360px;
-	padding: 0 0 0 150px;
+	text-align: justify;
+    padding: 5px 5px 5px 150px;
 	margin: -35px 50px 0 auto !important;
     background:rgb(128,128,128);
 	background: transparent\9;
